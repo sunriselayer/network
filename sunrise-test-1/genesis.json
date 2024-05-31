@@ -984,7 +984,7 @@
         "expedited_min_deposit": [
           {
             "denom": "urise",
-            "amount": "50000000"
+            "amount": "5000000"
           }
         ],
         "burn_vote_quorum": false,
