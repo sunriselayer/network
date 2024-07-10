@@ -206,7 +206,7 @@ laddr = "tcp://0.0.0.0:26656"
 external_address = ""
 
 # Comma separated list of seed nodes to connect to
-seeds = "27d92a62f64585b995a6a99882cdd3a1a441336d@a.sunrise-test-1.cauchye.net:26656,9cb96bd137c6fab41446f5fa36e17b1f8896b05c@b.sunrise-test-1.cauchye.net:26656,db223ecc4fba0e7135ba782c0fd710580c5213a6@a-node.sunrise-test-1.cauchye.net:26656"
+seeds = "89e5866f0c2edd5fd1cc604e0eb173d6111d9bd8@a.sunrise-test-1.cauchye.net:26656,9cb96bd137c6fab41446f5fa36e17b1f8896b05c@b.sunrise-test-1.cauchye.net:26656,db223ecc4fba0e7135ba782c0fd710580c5213a6@a-node.sunrise-test-1.cauchye.net:26656"
 
 # Comma separated list of nodes to keep persistent connections to
 persistent_peers = ""
