@@ -32,13 +32,13 @@ sha256sum ~/.sunrise/config/genesis.json
 
 1. Download new binary
 
-sunrise-test-0.2 uses the sunrise-v0.1.4 binary.
+sunrise-test-0.2 uses the sunrise-v0.2.0 binary from height 157300.
 
 ```bash
 # download new binary for x86
-wget https://github.com/sunriselayer/sunrise/releases/download/v0.1.4/sunrised
+wget https://github.com/sunriselayer/sunrise/releases/download/v0.2.0/sunrised
 sha256sum sunrised
-e9abb0bdfb642faae350b47f62fd0c3a54f4ceabb6614f34322133784a0e600a  sunrised
+3731f60f0a8daeb3a5cadabbc54b1af36b555f0cb17c299597ee8b566d58942f  sunrised
 
 sudo mv sunrised /usr/bin/
 ## or cosmovisor
