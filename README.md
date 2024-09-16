@@ -14,7 +14,7 @@ Please refer to the [Sunrise Docs](https://docs.sunriselayer.io/) for guides on 
 
 | Type    | Chain ID     | Configs                    |
 |---------|--------------|----------------------------|
-| Testnet | `sunrise-test-0.1`    |       |
+| Testnet | `sunrise-test-0.2`    |       |
 | Mainnet | `sunrise-1`   |    |
 
 ## Software versions
