@@ -32,7 +32,7 @@ sha256sum ~/.sunrise/config/genesis.json
 
 1. Download new binary
 
-sunrise-test-0.2 uses the sunrise-v0.1.4 binary.
+sunrise-test-0.2 uses the sunrise-v0.2.0 binary from height 157300.
 
 ```bash
 # download new binary for x86
