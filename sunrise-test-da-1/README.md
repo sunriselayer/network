@@ -1,6 +1,6 @@
-# Start sunrise testnet sunrise-test-0.2
+# Start sunrise testnet sunrise-test-da-1
 
-`sunrise-test-0.2` is a hard fork on sunrise testnet. This section describes the steps for existing full nodes and validators to support it.
+`sunrise-test-da-1` is a sunrise devnet for testing DA functions. This section describes the steps for existing full nodes and validators to support it.
 
 When setting up a new full node or validator, please follow the guide in [Sunrise doc](https://docs.sunriselayer.io/run-a-sunrise-node/types/consensus).
 
@@ -23,22 +23,22 @@ rm ~/.sunrise/config/genesis.json
 
 ```bash
 # download genesis.json 
-wget -O ~/.sunrise/config/genesis.json https://raw.githubusercontent.com/sunriselayer/network/main/sunrise-test-0.2/genesis.json
+wget -O ~/.sunrise/config/genesis.json https://raw.githubusercontent.com/sunriselayer/network/main/sunrise-test-da-1/genesis.json
 
 # check the sha256 hash of the genesis.json
 sha256sum ~/.sunrise/config/genesis.json
-049ddb5d68ea22b979ed8b6429a6ec0618f80d653ceeea5cdc40faeb8034e8fc  .sunrise/config/genesis.json
+0ea4248f86593a6020e9e72c2c12c16e5aec6fa5b0dfd69f547f0afb048277c0  .sunrise/config/genesis.json
 ```
 
 1. Download new binary
 
-sunrise-test-0.2 uses the sunrise-v0.2.0 binary from height 157300.
+sunrise-test-da-1 uses the sunrise-v0.3.0-rc1 binary.
 
 ```bash
 # download new binary for x86
-wget https://github.com/sunriselayer/sunrise/releases/download/v0.1.4/sunrised
+wget https://github.com/sunriselayer/sunrise/releases/download/v0.3.0-rc1/sunrised
 md5sum sunrised
-e0e9775c509ff47b0e90d0b1c6310421  sunrised
+24ee1728f4b2e75fcd01cb84a5e0ef39  sunrised
 
 sudo mv sunrised /usr/bin/
 ## or cosmovisor
@@ -54,7 +54,7 @@ Once a validator connects to the network, it primarily relies on `persistent_pee
 
 ```yml
 # edit  .sunrise/config/config.toml
-seeds = "0c0e0cf617c1c58297f53f3a82cea86a7c860396@a.sunrise-test-1.cauchye.net:26656"
+seeds = "4092a9c0d8d824a72e2e704f5a790ea59e3de626@sunrise-test-da-1.cauchye.net:26656"
 ```
 
 1. Set persistent peers
@@ -66,7 +66,7 @@ Connections to validators listed in persistent_peers are prioritized to maintain
 
 ```yml
 # edit  .sunrise/config/config.toml
-persistent_peers = "0c0e0cf617c1c58297f53f3a82cea86a7c860396@a.sunrise-test-1.cauchye.net:26656,db223ecc4fba0e7135ba782c0fd710580c5213a6@a-node.sunrise-test-1.cauchye.net:26656,82bc2fdbfc735b1406b9da4181036ab9c44b63be@b-node.sunrise-test-1.cauchye.net:26656,18b9bc3dccfd64dc39459fbac52f7ae7809fd697@c-node.sunrise-test-1.cauchye.net:26656,66d225bb1225c66a8d0ce2f52369a8ba06ebddfc@d-node.sunrise-test-1.cauchye.net:26656"
+persistent_peers = "4092a9c0d8d824a72e2e704f5a790ea59e3de626@sunrise-test-da-1.cauchye.net:26656"
 ```
 
 1. Restart chain
