@@ -27,18 +27,18 @@ wget -O ~/.sunrise/config/genesis.json https://raw.githubusercontent.com/sunrise
 
 # check the sha256 hash of the genesis.json
 sha256sum ~/.sunrise/config/genesis.json
-0ea4248f86593a6020e9e72c2c12c16e5aec6fa5b0dfd69f547f0afb048277c0  .sunrise/config/genesis.json
+41f7b0f14583861c20d1597a52fbd5b219b0557d18c5477a0e6d4f7f06330249  .sunrise/config/genesis.json
 ```
 
 1. Download new binary
 
-sunrise-test-da-1 uses the sunrise-v0.3.0-rc1 binary.
+sunrise-test-da-1 uses the sunrise-v0.4.0-rc9 binary.
 
 ```bash
 # download new binary for x86
-wget https://github.com/sunriselayer/sunrise/releases/download/v0.3.0-rc1/sunrised
+wget https://github.com/sunriselayer/sunrise/releases/download/v0.4.0-rc9/sunrised
 md5sum sunrised
-24ee1728f4b2e75fcd01cb84a5e0ef39  sunrised
+e15215a8056f7914ce61ab626b527855  sunrised
 
 sudo mv sunrised /usr/bin/
 ## or cosmovisor
@@ -54,7 +54,7 @@ Once a validator connects to the network, it primarily relies on `persistent_pee
 
 ```yml
 # edit  .sunrise/config/config.toml
-seeds = "4092a9c0d8d824a72e2e704f5a790ea59e3de626@sunrise-test-da-1.cauchye.net:26656"
+seeds = "4621ed2917f1f979a7f4675cbedd0760e9016b00@sunrise-test-da-1.cauchye.net:26656"
 ```
 
 1. Set persistent peers
@@ -66,7 +66,7 @@ Connections to validators listed in persistent_peers are prioritized to maintain
 
 ```yml
 # edit  .sunrise/config/config.toml
-persistent_peers = "4092a9c0d8d824a72e2e704f5a790ea59e3de626@sunrise-test-da-1.cauchye.net:26656"
+persistent_peers = "4621ed2917f1f979a7f4675cbedd0760e9016b00@sunrise-test-da-1.cauchye.net:26656"
 ```
 
 1. Restart chain
