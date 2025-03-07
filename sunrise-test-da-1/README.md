@@ -32,13 +32,13 @@ sha256sum ~/.sunrise/config/genesis.json
 
 1. Download new binary
 
-sunrise-test-da-1 uses the sunrise-v0.4.0-rc9 binary.
+sunrise-test-da-1 uses the sunrise-v0.4.0 binary.
 
 ```bash
 # download new binary for x86
-wget https://github.com/sunriselayer/sunrise/releases/download/v0.4.0-rc9/sunrised
+wget https://github.com/sunriselayer/sunrise/releases/download/v0.4.0/sunrised
 md5sum sunrised
-e15215a8056f7914ce61ab626b527855  sunrised
+6df8e36d25860cbea6009e040c5b4966 sunrised
 
 sudo mv sunrised /usr/bin/
 ## or cosmovisor
