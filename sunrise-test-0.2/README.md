@@ -1,4 +1,6 @@
-# Start sunrise testnet sunrise-test-0.2
+# `sunrise-test-0.2`
+
+## Start sunrise testnet sunrise-test-0.2
 
 `sunrise-test-0.2` is a hard fork on sunrise testnet. This section describes the steps for existing full nodes and validators to support it.
 

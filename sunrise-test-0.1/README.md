@@ -1,4 +1,8 @@
-# Start sunrise testnet sunrise-test-0.1 (Deprecated)
+# Deprecated: `sunrise-test-0.1`
+
+sunrise-test-0.1 is deprecated; This chain is not used in the public testnet.
+
+## Start sunrise testnet sunrise-test-0.1
 
 1. Stop and reset chain data
 

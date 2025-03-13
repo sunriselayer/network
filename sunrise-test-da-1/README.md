@@ -1,4 +1,8 @@
-# Start sunrise testnet sunrise-test-da-1
+# Deprecated: `sunrise-test-da-1`
+
+sunrise-test-da-1 is deprecated; use newer devnet to test DA functions.
+
+## Start sunrise testnet sunrise-test-da-1
 
 `sunrise-test-da-1` is a sunrise devnet for testing DA functions. This section describes the steps for existing full nodes and validators to support it.
 
