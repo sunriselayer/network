@@ -1,17 +1,13 @@
 {
   "app_name": "sunrised",
-  "app_version": "0.4.2",
-  "genesis_time": "2025-03-13T14:31:35.937329574Z",
-  "chain_id": "sunrise-test-da-2",
+  "app_version": "HEAD-e732e7a6bb0f92e4ec40acdcb214f3fd1ba75421",
+  "genesis_time": "2025-05-21T11:30:00.000000000Z",
+  "chain_id": "sunrise-test-da-3",
   "initial_height": 1,
   "app_hash": null,
   "app_state": {
-    "06-solomachine": {},
-    "07-tendermint": {},
-    "accounts": {
-      "accounts": [],
-      "init_account_msgs": []
-    },
+    "06-solomachine": null,
+    "07-tendermint": null,
     "auth": {
       "params": {
         "max_memo_characters": "256",
@@ -111,6 +107,90 @@
           "pub_key": null,
           "account_number": "12",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "sunrise1s35m8qtuhvecc47c2vjyml9cljvn3yrufh56sn",
+          "pub_key": null,
+          "account_number": "13",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "sunrise1jll9zuas2qt7evcp7hj9gq8ldmtmdc46svcnqd",
+          "pub_key": null,
+          "account_number": "14",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "sunrise1gtnvs6667awkpd80ltdxaptz3f7hsaat99l8a8",
+          "pub_key": null,
+          "account_number": "15",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "sunrise133fhqjfd3mmku3vwczsf5lyzuhavfmqly4f79w",
+          "pub_key": null,
+          "account_number": "16",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "sunrise12tppeqtaxtcddpjzguyfq7apnnljksnnvpszxq",
+          "pub_key": null,
+          "account_number": "17",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "sunrise1007qgz36cp3z4vkm5k8tx0uyf59ey6jrmjv8qp",
+          "pub_key": null,
+          "account_number": "18",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "sunrise1rl93uudq2l2lx54l7m54caycqenfj9reer4mlf",
+          "pub_key": null,
+          "account_number": "19",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "sunrise1yvh0yvum6t2rc9xsv9cdw26xn393q5a0wxreq3",
+          "pub_key": null,
+          "account_number": "20",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "sunrise1etx55kw7tkmnjqz0k0mups4ewxlr324t8c7704",
+          "pub_key": null,
+          "account_number": "21",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "sunrise1jt9w26mpxxjsk63mvd4m2ynj0af09csl3v4hcz",
+          "pub_key": null,
+          "account_number": "22",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "sunrise1lyktdeyh8ltt4ghc2fj8vgnkpt3lj4jf947npn",
+          "pub_key": null,
+          "account_number": "23",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "sunrise1jmtfcmfsjxzyp7hc8kscv35khvmdca8hgw2n8t",
+          "pub_key": null,
+          "account_number": "24",
+          "sequence": "0"
         }
       ]
     },
@@ -164,7 +244,7 @@
             },
             {
               "denom": "uvrise",
-              "amount": "100000000000000000"
+              "amount": "1000000000000"
             },
             {
               "denom": "uweth",
@@ -178,6 +258,32 @@
             {
               "denom": "urise",
               "amount": "100000000000000"
+            }
+          ]
+        },
+        {
+          "address": "sunrise1rl93uudq2l2lx54l7m54caycqenfj9reer4mlf",
+          "coins": [
+            {
+              "denom": "urise",
+              "amount": "10000000"
+            },
+            {
+              "denom": "uvrise",
+              "amount": "9000000000000"
+            }
+          ]
+        },
+        {
+          "address": "sunrise1yvh0yvum6t2rc9xsv9cdw26xn393q5a0wxreq3",
+          "coins": [
+            {
+              "denom": "urise",
+              "amount": "10000000"
+            },
+            {
+              "denom": "uvrise",
+              "amount": "9000000000000"
             }
           ]
         },
@@ -222,7 +328,7 @@
             },
             {
               "denom": "uvrise",
-              "amount": "100000000000000000"
+              "amount": "1000000000000"
             },
             {
               "denom": "uweth",
@@ -249,11 +355,37 @@
           ]
         },
         {
+          "address": "sunrise1gtnvs6667awkpd80ltdxaptz3f7hsaat99l8a8",
+          "coins": [
+            {
+              "denom": "urise",
+              "amount": "10000000"
+            },
+            {
+              "denom": "uvrise",
+              "amount": "9000000000000"
+            }
+          ]
+        },
+        {
           "address": "sunrise1fclku92ml8t8lsvyzed498vd40x9l3d3s6kgef",
           "coins": [
             {
               "denom": "urise",
               "amount": "100000000000000"
+            }
+          ]
+        },
+        {
+          "address": "sunrise12tppeqtaxtcddpjzguyfq7apnnljksnnvpszxq",
+          "coins": [
+            {
+              "denom": "urise",
+              "amount": "10000000"
+            },
+            {
+              "denom": "uvrise",
+              "amount": "9000000000000"
             }
           ]
         },
@@ -298,7 +430,7 @@
             },
             {
               "denom": "uvrise",
-              "amount": "100000000000000000"
+              "amount": "1000000000000"
             },
             {
               "denom": "uweth",
@@ -311,11 +443,63 @@
           "coins": [
             {
               "denom": "urise",
-              "amount": "1000000000000"
+              "amount": "10000000"
             },
             {
               "denom": "uvrise",
-              "amount": "1000000000000000000"
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "sunrise1007qgz36cp3z4vkm5k8tx0uyf59ey6jrmjv8qp",
+          "coins": [
+            {
+              "denom": "urise",
+              "amount": "10000000"
+            },
+            {
+              "denom": "uvrise",
+              "amount": "9000000000000"
+            }
+          ]
+        },
+        {
+          "address": "sunrise1s35m8qtuhvecc47c2vjyml9cljvn3yrufh56sn",
+          "coins": [
+            {
+              "denom": "urise",
+              "amount": "10000000"
+            },
+            {
+              "denom": "uvrise",
+              "amount": "9000000000000"
+            }
+          ]
+        },
+        {
+          "address": "sunrise133fhqjfd3mmku3vwczsf5lyzuhavfmqly4f79w",
+          "coins": [
+            {
+              "denom": "urise",
+              "amount": "10000000"
+            },
+            {
+              "denom": "uvrise",
+              "amount": "9000000000000"
+            }
+          ]
+        },
+        {
+          "address": "sunrise1jt9w26mpxxjsk63mvd4m2ynj0af09csl3v4hcz",
+          "coins": [
+            {
+              "denom": "urise",
+              "amount": "10000000"
+            },
+            {
+              "denom": "uvrise",
+              "amount": "9000000000000"
             }
           ]
         },
@@ -325,6 +509,32 @@
             {
               "denom": "urise",
               "amount": "100000000000000"
+            }
+          ]
+        },
+        {
+          "address": "sunrise1jmtfcmfsjxzyp7hc8kscv35khvmdca8hgw2n8t",
+          "coins": [
+            {
+              "denom": "urise",
+              "amount": "10000000"
+            },
+            {
+              "denom": "uvrise",
+              "amount": "9000000000000"
+            }
+          ]
+        },
+        {
+          "address": "sunrise1jll9zuas2qt7evcp7hj9gq8ldmtmdc46svcnqd",
+          "coins": [
+            {
+              "denom": "urise",
+              "amount": "10000000"
+            },
+            {
+              "denom": "uvrise",
+              "amount": "9000000000000"
             }
           ]
         },
@@ -369,7 +579,7 @@
             },
             {
               "denom": "uvrise",
-              "amount": "100000000000000000"
+              "amount": "1000000000000"
             },
             {
               "denom": "uweth",
@@ -387,11 +597,37 @@
           ]
         },
         {
+          "address": "sunrise1etx55kw7tkmnjqz0k0mups4ewxlr324t8c7704",
+          "coins": [
+            {
+              "denom": "urise",
+              "amount": "10000000"
+            },
+            {
+              "denom": "uvrise",
+              "amount": "9000000000000"
+            }
+          ]
+        },
+        {
           "address": "sunrise17yqk0jqpvdxsmm6tw3keth6n4d2ssvjwyut564",
           "coins": [
             {
               "denom": "urise",
               "amount": "100000000000000"
+            }
+          ]
+        },
+        {
+          "address": "sunrise1lyktdeyh8ltt4ghc2fj8vgnkpt3lj4jf947npn",
+          "coins": [
+            {
+              "denom": "urise",
+              "amount": "10000000"
+            },
+            {
+              "denom": "uvrise",
+              "amount": "9000000000000"
             }
           ]
         },
@@ -428,7 +664,7 @@
         },
         {
           "denom": "urise",
-          "amount": "805000000000000"
+          "amount": "804000130000000"
         },
         {
           "denom": "ushib",
@@ -444,7 +680,7 @@
         },
         {
           "denom": "uvrise",
-          "amount": "1400000000000000000"
+          "amount": "113000000000000"
         },
         {
           "denom": "uweth",
@@ -513,6 +749,7 @@
     "consensus": null,
     "da": {
       "params": {
+        "publish_data_gas": "1000000",
         "challenge_threshold": "0.330000000000000000",
         "replication_factor": "5.000000000000000000",
         "slash_epoch": "120960",
@@ -551,10 +788,10 @@
         "withdraw_addr_enabled": true
       },
       "fee_pool": {
-        "community_pool": [],
-        "decimal_pool": []
+        "community_pool": []
       },
       "delegator_withdraw_infos": [],
+      "previous_proposer": "",
       "outstanding_rewards": [],
       "validator_accumulated_commissions": [],
       "validator_historical_rewards": [],
@@ -562,67 +799,17 @@
       "delegator_starting_infos": [],
       "validator_slash_events": []
     },
-    "epochs": {
-      "epochs": [
-        {
-          "identifier": "day",
-          "start_time": "0001-01-01T00:00:00Z",
-          "duration": "86400s",
-          "current_epoch": "0",
-          "current_epoch_start_time": "0001-01-01T00:00:00Z",
-          "epoch_counting_started": false,
-          "current_epoch_start_height": "0"
-        },
-        {
-          "identifier": "hour",
-          "start_time": "0001-01-01T00:00:00Z",
-          "duration": "3600s",
-          "current_epoch": "0",
-          "current_epoch_start_time": "0001-01-01T00:00:00Z",
-          "epoch_counting_started": false,
-          "current_epoch_start_height": "0"
-        },
-        {
-          "identifier": "minute",
-          "start_time": "0001-01-01T00:00:00Z",
-          "duration": "60s",
-          "current_epoch": "0",
-          "current_epoch_start_time": "0001-01-01T00:00:00Z",
-          "epoch_counting_started": false,
-          "current_epoch_start_height": "0"
-        },
-        {
-          "identifier": "week",
-          "start_time": "0001-01-01T00:00:00Z",
-          "duration": "604800s",
-          "current_epoch": "0",
-          "current_epoch_start_time": "0001-01-01T00:00:00Z",
-          "epoch_counting_started": false,
-          "current_epoch_start_height": "0"
-        }
-      ]
-    },
     "evidence": {
       "evidence": []
     },
     "fee": {
       "params": {
         "fee_denom": "urise",
-        "burn_ratio": "0.500000000000000000",
-        "bypass_denoms": [
-          "uvrise"
-        ]
+        "burn_ratio": "0.500000000000000000"
       }
     },
     "feegrant": {
       "allowances": []
-    },
-    "feeibc": {
-      "identified_fees": [],
-      "fee_enabled_channels": [],
-      "registered_payees": [],
-      "registered_counterparty_payees": [],
-      "forward_relayers": []
     },
     "genutil": {
       "gen_txs": [
@@ -632,7 +819,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "sunrised_moniker14487",
+                  "moniker": "sunrised_moniker24233",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -648,15 +835,15 @@
                 "validator_address": "sunrisevaloper1wd3g35hec5m6n4qfwaydndzelsuaafzj8hdqe4",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "QsUe888w9E1xTbJbrQDp3SS0BeKheNJB3g/qxbuTkgk="
+                  "key": "cBGTQPxDprlyHPRxHUuT9kqlcFXTpWxKWNYGsLmj4uw="
                 },
                 "value": {
                   "denom": "uvrise",
-                  "amount": "10000000000000"
+                  "amount": "100000000000"
                 }
               }
             ],
-            "memo": "b94c27f9718b70d8d4b6ec13df537c282501e8fc@172.31.47.251:26656",
+            "memo": "4cf36fd037a35e61cc14374cb8d686acd62ccaa4@45.32.39.116:26656",
             "timeout_height": "0",
             "unordered": false,
             "timeout_timestamp": null,
@@ -679,15 +866,20 @@
               }
             ],
             "fee": {
-              "amount": [],
+              "amount": [
+                {
+                  "denom": "urise",
+                  "amount": "100000"
+                }
+              ],
               "gas_limit": "200000",
-              "payer": "sunrise1wd3g35hec5m6n4qfwaydndzelsuaafzj8k2cvs",
+              "payer": "",
               "granter": ""
             },
             "tip": null
           },
           "signatures": [
-            "4yo+iA9Z7V16XtQWubRUQVATB20eWAJauezrzlfYU5Aap+39Rw0/FbUSQ34pAzipbN1+PIYVCGrBft0nxehvHA=="
+            "LThqaiFtBzuxL61Kx+P6lFmyqILMzjPmK8/BxXOFlT5Uyb/A4Mmm0WO8yFaSOYSt/B8GTAD5+u0WEZR0U2OK8w=="
           ]
         }
       ]
@@ -713,7 +905,7 @@
         ],
         "max_deposit_period": "604800s",
         "voting_period": "30s",
-        "quorum": "0.334000000000000000",
+        "quorum": "0.200000000000000000",
         "threshold": "0.500000000000000000",
         "veto_threshold": "0.334000000000000000",
         "min_initial_deposit_ratio": "0.000000000000000000",
@@ -734,25 +926,9 @@
         "burn_vote_quorum": false,
         "burn_proposal_deposit_prevote": false,
         "burn_vote_veto": true,
-        "min_deposit_ratio": "0.010000000000000000",
-        "proposal_cancel_max_period": "0.500000000000000000",
-        "optimistic_authorized_addresses": [],
-        "optimistic_rejected_threshold": "0.100000000000000000",
-        "yes_quorum": "0.000000000000000000",
-        "expedited_quorum": "0.500000000000000000",
-        "proposal_execution_gas": "10000000"
+        "min_deposit_ratio": "0.010000000000000000"
       },
       "constitution": ""
-    },
-    "group": {
-      "group_seq": "0",
-      "groups": [],
-      "group_members": [],
-      "group_policy_seq": "0",
-      "group_policies": [],
-      "proposal_seq": "0",
-      "proposals": [],
-      "votes": []
     },
     "ibc": {
       "client_genesis": {
@@ -783,16 +959,17 @@
         "send_sequences": [],
         "recv_sequences": [],
         "ack_sequences": [],
-        "next_channel_sequence": "0",
-        "params": {
-          "upgrade_timeout": {
-            "height": {
-              "revision_number": "0",
-              "revision_height": "0"
-            },
-            "timestamp": "600000000000"
-          }
-        }
+        "next_channel_sequence": "0"
+      },
+      "client_v2_genesis": {
+        "counterparty_infos": []
+      },
+      "channel_v2_genesis": {
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "async_packets": [],
+        "send_sequences": []
       }
     },
     "interchainaccounts": {
@@ -818,65 +995,71 @@
     },
     "liquidityincentive": {
       "params": {
-        "epoch_blocks": "5",
-        "staking_reward_ratio": "0.500000000000000000"
+        "epoch_blocks": "1000",
+        "staking_reward_ratio": "0.500000000000000000",
+        "bribe_claim_epochs": "10"
       },
       "epochs": [],
-      "epoch_count": "0",
-      "gauges": [],
-      "votes": []
+      "epoch_count": "1",
+      "votes": [],
+      "bribes": [],
+      "bribe_count": "1",
+      "bribe_allocations": []
     },
     "liquiditypool": {
       "params": {
-        "withdraw_fee_rate": "0.010000000000000000",
-        "swap_treasury_tax_rate": "0.010000000000000000"
+        "create_pool_gas": "1000000",
+        "withdraw_fee_rate": "0.010000000000000000"
       },
       "pools": [],
-      "pool_count": "0",
+      "pool_count": "1",
       "positions": [],
-      "position_count": "0",
+      "position_count": "1",
       "accumulators": [],
       "accumulator_positions": []
+    },
+    "lockup": {
+      "params": {
+        "min_lockup_duration": "2592000s"
+      },
+      "lockup_accounts": [],
+      "init_lockup_msgs": []
     },
     "mint": {
       "minter": {
         "inflation": "0.130000000000000000",
-        "annual_provisions": "0.000000000000000000",
-        "data": null
+        "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "urise",
         "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.050000000000000000",
-        "inflation_min": "0.000000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
         "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "6311520",
-        "max_supply": "0"
+        "blocks_per_year": "6311520"
       }
     },
-    "nft": {
-      "classes": [],
-      "entries": []
-    },
-    "params": {},
+    "params": null,
     "protocolpool": {
-      "continuous_fund": [],
-      "budget": [],
-      "last_balance": {
-        "amount": []
-      },
-      "distributions": [],
+      "continuous_funds": [],
       "params": {
         "enabled_distribution_denoms": [
           "urise"
-        ]
+        ],
+        "distribution_frequency": "1"
       }
     },
-    "runtime": {},
-    "selfdelegation": {
+    "runtime": null,
+    "shareclass": {
       "params": {
-        "self_delegation_cap": "1000000000000"
-      }
+        "reward_period": "28800s",
+        "create_validator_gas": "1000000"
+      },
+      "unbondings": [],
+      "unbonding_count": "1",
+      "reward_multipliers": [],
+      "user_last_reward_multipliers": [],
+      "last_reward_handling_times": []
     },
     "slashing": {
       "params": {
@@ -894,13 +1077,9 @@
         "unbonding_time": "1814400s",
         "max_validators": 100,
         "max_entries": 7,
-        "historical_entries": 0,
+        "historical_entries": 10000,
         "bond_denom": "uvrise",
-        "min_commission_rate": "0.000000000000000000",
-        "key_rotation_fee": {
-          "denom": "uvrise",
-          "amount": "1000000"
-        }
+        "min_commission_rate": "0.000000000000000000"
       },
       "last_total_power": "0",
       "last_validator_powers": [],
@@ -908,10 +1087,7 @@
       "delegations": [],
       "unbonding_delegations": [],
       "redelegations": [],
-      "exported": false,
-      "rotation_index_records": [],
-      "rotation_history": [],
-      "rotation_queue": []
+      "exported": false
     },
     "swap": {
       "params": {
@@ -921,10 +1097,7 @@
       "outgoing_in_flight_packets": []
     },
     "tokenconverter": {
-      "params": {
-        "bond_denom": "uvrise",
-        "fee_denom": "urise"
-      }
+      "params": {}
     },
     "transfer": {
       "port_id": "transfer",
@@ -933,16 +1106,16 @@
         "send_enabled": true,
         "receive_enabled": true
       },
-      "total_escrowed": [],
-      "forwarded_packets": []
+      "total_escrowed": []
     },
-    "upgrade": {}
+    "upgrade": {},
+    "vesting": {}
   },
   "consensus": {
     "params": {
       "block": {
-        "max_bytes": "4194304",
-        "max_gas": "10000000"
+        "max_bytes": "22020096",
+        "max_gas": "-1"
       },
       "evidence": {
         "max_age_num_blocks": "100000",
@@ -957,13 +1130,8 @@
       "version": {
         "app": "0"
       },
-      "synchrony": {
-        "precision": "505000000",
-        "message_delay": "15000000000"
-      },
-      "feature": {
-        "vote_extensions_enable_height": "0",
-        "pbts_enable_height": "0"
+      "abci": {
+        "vote_extensions_enable_height": "0"
       }
     }
   }

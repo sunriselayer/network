@@ -1,10 +1,10 @@
-# `sunrise-test-da-2`
+# `sunrise-test-da-3`
 
-sunrise-test-da-2 started on March 13, 2025.
+sunrise-test-da-3 started on May 21, 2025.
 
-## Start sunrise testnet sunrise-test-da-2
+## Start sunrise testnet sunrise-test-da-3
 
-`sunrise-test-da-2` is a sunrise devnet for testing DA functions. This section describes the steps for existing full nodes and validators to support it.
+`sunrise-test-da-3` is a sunrise devnet for testing DA functions and other features. This section describes the steps for existing full nodes and validators to support it.
 
 When setting up a new full node or validator, please follow the guide in [Sunrise doc](https://docs.sunriselayer.io/run-a-sunrise-node/types/consensus).
 
@@ -27,22 +27,22 @@ rm ~/.sunrise/config/genesis.json
 
 ```bash
 # download genesis.json 
-wget -O ~/.sunrise/config/genesis.json https://raw.githubusercontent.com/sunriselayer/network/main/sunrise-test-da-2/genesis.json
+wget -O ~/.sunrise/config/genesis.json https://raw.githubusercontent.com/sunriselayer/network/main/sunrise-test-da-3/genesis.json
 
 # check the sha256 hash of the genesis.json
-sha256sum ~/.sunrise/config/genesis.json
-20b2ab8102b62fea6c668b89521545011fe3d8bc5cb2a08e413fc80c3b0be1f1  .sunrise/config/genesis.json
+md5sum ~/.sunrise/config/genesis.json
+c015d1aff9a2ee1092e15e80f676b403 .sunrise/config/genesis.json
 ```
 
 1. Download binary
 
-sunrise-test-da-2 uses the sunrise-v0.4.3 binary.
+sunrise-test-da-3 uses the sunrise-v0.5.1 binary.
 
 ```bash
 # download new binary for x86
-wget https://github.com/sunriselayer/sunrise/releases/download/v0.4.3/sunrised
+wget https://github.com/sunriselayer/sunrise/releases/download/v0.5.1/sunrised
 md5sum sunrised
-37cb2b1f23b1f5ae7a3924d7dff2b349 sunrised
+e67ac24a15722d55b9c93f68547a3cdb sunrised
 
 sudo mv sunrised /usr/bin/
 ## or cosmovisor
@@ -58,7 +58,7 @@ Once a validator connects to the network, it primarily relies on `persistent_pee
 
 ```yml
 # edit  .sunrise/config/config.toml
-seeds = "b94c27f9718b70d8d4b6ec13df537c282501e8fc@sunrise-test-da-2.cauchye.net:26656"
+seeds = "4cf36fd037a35e61cc14374cb8d686acd62ccaa4@sunrise-test-da-3.cauchye.net:26656"
 ```
 
 1. Set persistent peers
@@ -70,7 +70,7 @@ Connections to validators listed in persistent_peers are prioritized to maintain
 
 ```yml
 # edit  .sunrise/config/config.toml
-persistent_peers = "b94c27f9718b70d8d4b6ec13df537c282501e8fc@sunrise-test-da-2.cauchye.net:26656"
+persistent_peers = "4cf36fd037a35e61cc14374cb8d686acd62ccaa4@sunrise-test-da-3.cauchye.net:26656"
 ```
 
 1. Restart chain

@@ -47,7 +47,7 @@ halt-time = 0
 # It has no bearing on application state pruning which is determined by the
 # "pruning-*" configurations.
 #
-# Note: CometBFT block pruning is dependent on this parameter in conjunction
+# Note: CometBFT block pruning is dependant on this parameter in conjunction
 # with the unbonding (safety threshold) period, state pruning and state sync
 # snapshot parameters to determine the correct minimum value of
 # ResponseCommit.RetainHeight.
@@ -170,8 +170,16 @@ max-recv-msg-size = "10485760"
 # The default value is math.MaxInt32.
 max-send-msg-size = "2147483647"
 
-# SkipCheckHeader defines if the gRPC server should bypass check header.
-skip-check-header = false
+###############################################################################
+###                        gRPC Web Configuration                           ###
+###############################################################################
+
+[grpc-web]
+
+# GRPCWebEnable defines if the gRPC-web should be enabled.
+# NOTE: gRPC must also be enabled, otherwise, this configuration is a no-op.
+# NOTE: gRPC-Web uses the same address as the API server.
+enable = true
 
 ###############################################################################
 ###                        State Sync Configuration                         ###
