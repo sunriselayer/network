@@ -36,13 +36,13 @@ c015d1aff9a2ee1092e15e80f676b403 .sunrise/config/genesis.json
 
 1. Download binary
 
-sunrise-test-da-3 uses the sunrise-v0.5.4 binary.
+sunrise-test-da-3 uses the sunrise-v0.5.5 binary.
 
 ```bash
 # download new binary for x86
-wget https://github.com/sunriselayer/sunrise/releases/download/v0.5.4/sunrised
+wget https://github.com/sunriselayer/sunrise/releases/download/v0.5.5/sunrised
 md5sum sunrised
-6613c78904ab7d53d5d385e1e705fcca sunrised
+774e53297aa5d004dcefd0173c3bfdb4 sunrised
 
 sudo mv sunrised /usr/bin/
 ## or cosmovisor
