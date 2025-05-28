@@ -31,7 +31,7 @@ wget -O ~/.sunrise/config/genesis.json https://raw.githubusercontent.com/sunrise
 
 # check the sha256 hash of the genesis.json
 md5sum ~/.sunrise/config/genesis.json
-c015d1aff9a2ee1092e15e80f676b403 .sunrise/config/genesis.json
+1a644bcecc63a15371fd58d715cb6df0 .sunrise/config/genesis.json
 ```
 
 1. Download binary
@@ -58,7 +58,7 @@ Once a validator connects to the network, it primarily relies on `persistent_pee
 
 ```yml
 # edit  .sunrise/config/config.toml
-seeds = "4cf36fd037a35e61cc14374cb8d686acd62ccaa4@sunrise-test-da-3.cauchye.net:26656"
+seeds = "e164c23f97c182595ba4229ad3ea7ee88c3f1843@sunrise-test-da-3.cauchye.net:26656"
 ```
 
 1. Set persistent peers
@@ -70,7 +70,7 @@ Connections to validators listed in persistent_peers are prioritized to maintain
 
 ```yml
 # edit  .sunrise/config/config.toml
-persistent_peers = "4cf36fd037a35e61cc14374cb8d686acd62ccaa4@sunrise-test-da-3.cauchye.net:26656"
+persistent_peers = "e164c23f97c182595ba4229ad3ea7ee88c3f1843@sunrise-test-da-3.cauchye.net:26656"
 ```
 
 1. Restart chain
