@@ -1,7 +1,7 @@
 {
   "app_name": "sunrised",
-  "app_version": "HEAD-e732e7a6bb0f92e4ec40acdcb214f3fd1ba75421",
-  "genesis_time": "2025-05-21T11:30:00.000000000Z",
+  "app_version": "HEAD-cf21e509e796911ef20f0f73020f00b40bf867ae",
+  "genesis_time": "2025-05-28T06:00:00.000000000Z",
   "chain_id": "sunrise-test-da-3",
   "initial_height": 1,
   "app_hash": null,
@@ -819,7 +819,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "sunrised_moniker24233",
+                  "moniker": "sunrised_moniker14887",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -835,7 +835,7 @@
                 "validator_address": "sunrisevaloper1wd3g35hec5m6n4qfwaydndzelsuaafzj8hdqe4",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "cBGTQPxDprlyHPRxHUuT9kqlcFXTpWxKWNYGsLmj4uw="
+                  "key": "qy9KXWNesKlONgffQgdL6K9JrOYD1qM+cTo1n4R6iyw="
                 },
                 "value": {
                   "denom": "uvrise",
@@ -843,7 +843,7 @@
                 }
               }
             ],
-            "memo": "4cf36fd037a35e61cc14374cb8d686acd62ccaa4@45.32.39.116:26656",
+            "memo": "e164c23f97c182595ba4229ad3ea7ee88c3f1843@45.32.39.116:26656",
             "timeout_height": "0",
             "unordered": false,
             "timeout_timestamp": null,
@@ -879,7 +879,7 @@
             "tip": null
           },
           "signatures": [
-            "LThqaiFtBzuxL61Kx+P6lFmyqILMzjPmK8/BxXOFlT5Uyb/A4Mmm0WO8yFaSOYSt/B8GTAD5+u0WEZR0U2OK8w=="
+            "MgaSGuZAsmqaVP27JW1rcuCwpcRkxP3rmoG32Gor4BgcubcCJdBqB1Nn71XB2GH5oFdpd/Rb3xYpI6jj6XXYmg=="
           ]
         }
       ]
@@ -995,9 +995,9 @@
     },
     "liquidityincentive": {
       "params": {
-        "epoch_blocks": "1000",
+        "epoch_blocks": "207492",
         "staking_reward_ratio": "0.500000000000000000",
-        "bribe_claim_epochs": "10"
+        "bribe_claim_epochs": "5"
       },
       "epochs": [],
       "epoch_count": "1",
