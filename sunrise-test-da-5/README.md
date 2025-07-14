@@ -67,7 +67,7 @@ Once a validator connects to the network, it primarily relies on `persistent_pee
 
 ```yml
 # edit  .sunrise/config/config.toml
-seeds = "111d3e7f23e6393dbe40f3639c3bcbc4b03dbe11@sunrise-test-da-5.cauchye.net:26656"
+seeds = "35de66949e50e444d2788733ec8e07f1253922d1@sunrise-test-da-5.cauchye.net:26656"
 ```
 
 1. Set persistent peers
@@ -79,7 +79,7 @@ Connections to validators listed in persistent_peers are prioritized to maintain
 
 ```yml
 # edit  .sunrise/config/config.toml
-persistent_peers = "111d3e7f23e6393dbe40f3639c3bcbc4b03dbe11@sunrise-test-da-5.cauchye.net:26656"
+persistent_peers = "35de66949e50e444d2788733ec8e07f1253922d1@sunrise-test-da-5.cauchye.net:26656"
 ```
 
 1. Restart chain
