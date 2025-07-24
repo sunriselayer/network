@@ -320,7 +320,7 @@
         "expedited_min_deposit": [
           {
             "denom": "uvrise",
-            "amount": "20000000"
+            "amount": "500000000"
           }
         ],
         "burn_vote_quorum": false,
