@@ -1,0 +1,64 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "Nodeist",
+          "identity": "A2E180C6914F7F87",
+          "website": "https://nodeist.net/",
+          "security_contact": "hello@nodeist.net",
+          "details": "Nodeist is the trusted staking service provider for blockchain projects. 100% refund for downtime slash. Contact us at hello@nodeist.net"
+        },
+        "commission": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.050000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "",
+        "validator_address": "sunrisevaloper1rly6znjycadzmmgsjp4563wtnkas3pphjzjmsz",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "KkpmsGY1AN3GtM9coaDoOJ5GZBxboUMqEctzjbba3fQ="
+        },
+        "value": {
+          "denom": "uvrise",
+          "amount": "1000000"
+        }
+      }
+    ],
+    "memo": "347f78e6fb8b212239789bc8fb7c4da717e51859@127.0.0.1:26656",
+    "timeout_height": "0",
+    "unordered": false,
+    "timeout_timestamp": null,
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "A54gVDyWzl+b1paXFi64qMRyejqFPtUBCA3ykzeS2vDd"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    },
+    "tip": null
+  },
+  "signatures": [
+    "r3afefzXOctmH2t2XL/aeXgKcR/16jwTEM2HWCiYWEwOHXMxANhh+4O9h4MkWEkh+hGA7I5aWz7EBkG4hPI+mA=="
+  ]
+}
