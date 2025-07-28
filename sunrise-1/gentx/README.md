@@ -16,7 +16,7 @@ sunrised genesis gentx [validator-key-name] [amount] --home [path-to-home-direct
 
 > [!NOTE]
 >
-> - `[amount]`: Please be sure to use `uvrise` (vRISE).
+> - `[amount]`: Please be sure to use `1000000uvrise` (1 vRISE).
 > - `--chain-id`: Please be sure to use `sunrise-1`.
 
 | Parameter                      | Description                                                                | Example                   |
