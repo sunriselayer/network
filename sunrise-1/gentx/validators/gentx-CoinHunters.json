@@ -1,0 +1,64 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "CoinHunters",
+          "identity": "F0F603C1097C160F",
+          "website": "https://nodes.coinhunterstr.com",
+          "security_contact": "info@coinhunterstr.com",
+          "details": "Validator Service & Crypto Community & Startup Booster"
+        },
+        "commission": {
+          "rate": "0.100000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "",
+        "validator_address": "sunrisevaloper13xhjcwatxvjpdsx5lpk7t9wryhxr7wgj49fy0k",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "gNaEeJQF6Iv1pyrz3P6qvcyujSqC83olpdj3BuAWTJ4="
+        },
+        "value": {
+          "denom": "urise",
+          "amount": "1000000"
+        }
+      }
+    ],
+    "memo": "bb83bf4114f7bcdc0ae0f9f516731cb2d31a2e62@128.140.68.218:26656",
+    "timeout_height": "0",
+    "unordered": false,
+    "timeout_timestamp": null,
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "AmvwDtxMExjrj0ff/llfNE8elh7qS2hXngxl/lknF+mY"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    },
+    "tip": null
+  },
+  "signatures": [
+    "6sG0XkAWAnO+7A6pgLqJyKN1B2qc9iB0nHKqjLm0jJMaLTRuxS8ka9EBLbXnT0EZZvzZqtRJdprei3okp66kbQ=="
+  ]
+}
