@@ -23,7 +23,7 @@
           "key": "JXteKjnTNfTAJ4a+muVmg9Jrg8XbqdjssRq+2pKhpnI="
         },
         "value": {
-          "denom": "urise",
+          "denom": "uvrise",
           "amount": "1000000"
         }
       }
@@ -59,6 +59,6 @@
     "tip": null
   },
   "signatures": [
-    "BxyZq+55IzlyR0FAlLG9HsFv1kHazTEvqKlAbswv0bhRJ1FZ6c7L6rxSXtGHNNrtj8xBc9Mj/KcgAvhNrpVx0Q=="
+    "wypKBiQ6+nQjo5RLF3ZRHgmx0mUQtGz7lbXzE37LKdsvZYxQulyUeEzC59KGANzgNTAo4NtDYhVChpdSFGGt5Q=="
   ]
 }
