@@ -92,7 +92,7 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "sunrise1u8hvyz3wqe3rm4zk9zw6upsn2f3nk8k3r6vzrh",
+          "address": "sunrise1ca3qjzwhtgxygegaf4rldla48h4ay6pt0sk85t",
           "pub_key": null,
           "account_number": "10",
           "sequence": "0"
@@ -420,7 +420,7 @@
           ]
         },
         {
-          "address": "sunrise1u8hvyz3wqe3rm4zk9zw6upsn2f3nk8k3r6vzrh",
+          "address": "sunrise1ca3qjzwhtgxygegaf4rldla48h4ay6pt0sk85t",
           "coins": [
             {
               "denom": "uusdrise",
