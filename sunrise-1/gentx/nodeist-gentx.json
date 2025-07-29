@@ -20,7 +20,7 @@
         "validator_address": "sunrisevaloper1rly6znjycadzmmgsjp4563wtnkas3pphjzjmsz",
         "pubkey": {
           "@type": "/cosmos.crypto.ed25519.PubKey",
-          "key": "KkpmsGY1AN3GtM9coaDoOJ5GZBxboUMqEctzjbba3fQ="
+          "key": "EqUwRqQlnlEn68DBxb5fZZo0e2XKETOSG2+5p3EgQ9Q="
         },
         "value": {
           "denom": "uvrise",
@@ -28,7 +28,7 @@
         }
       }
     ],
-    "memo": "347f78e6fb8b212239789bc8fb7c4da717e51859@127.0.0.1:26656",
+    "memo": "9c23c132479fa593308521dcff993c14967cd9a7@127.0.0.1:26656",
     "timeout_height": "0",
     "unordered": false,
     "timeout_timestamp": null,
@@ -59,6 +59,6 @@
     "tip": null
   },
   "signatures": [
-    "r3afefzXOctmH2t2XL/aeXgKcR/16jwTEM2HWCiYWEwOHXMxANhh+4O9h4MkWEkh+hGA7I5aWz7EBkG4hPI+mA=="
+    "YWXswI0l9jDuLQHbKQl63HkxGdaYQnsm2CEejonhLtFd/hbj/zHpwpswBcfyPULd5hEZy7Oni63a7fAKVb8eHQ=="
   ]
 }
