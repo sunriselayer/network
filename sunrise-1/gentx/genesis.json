@@ -737,16 +737,29 @@
               "amount": "1000000"
             }
           ]
+        },
+        {
+          "address": "sunrise1rly6znjycadzmmgsjp4563wtnkas3pphjr4r98",
+          "coins": [
+            {
+              "denom": "uusdrise",
+              "amount": "100000"
+            },
+            {
+              "denom": "uvrise",
+              "amount": "1000000"
+            }
+          ]
         }
       ],
       "supply": [
         {
           "denom": "uusdrise",
-          "amount": "3500000"
+          "amount": "3600000"
         },
         {
           "denom": "uvrise",
-          "amount": "35000000"
+          "amount": "36000000"
         }
       ],
       "denom_metadata": [
