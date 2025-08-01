@@ -1,7 +1,5 @@
 # `sunrise-1` Mainnet
 
-sunrise-1 will be started on Aug 4th, 2025.
-
 ## Genesis File
 
 > [!IMPORTANT]
