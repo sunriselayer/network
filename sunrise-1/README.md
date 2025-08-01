@@ -71,26 +71,28 @@ sudo mv sunrised ~/.sunrise/cosmovisor/genesis/bin/
 sudo mv sunrised /usr/local/bin/
 ```
 
-### 4. Set seed
+### 4. Set seeds
 
-Update seeds information in `config.toml`.
+Update seeds information in `config.toml` from `seeds.txt`
 
-```yml
-# edit  ~/.sunrise/config/config.toml
-seeds = "2a30964e07118a0cb03bb1cae9185d37a967230a@a.validator.sunrise-1.sunriselayer.io:26656"
-```
+The seeds provides a list of other validators that a newly joining validator should initially connect to.
+Once a validator connects to the network, it primarily relies on `persistent_peers` for connections, reducing the importance of `seeds`.
 
 ### 5. Set persistent peers
 
-Update persistent peers information in `config.toml`.
+Update persistent peers information in `config.toml` from `peers.txt`
 
-```yml
-# edit  ~/.sunrise/config/config.toml
-persistent_peers = "41e61c0441f0086caf17186950fc440d45870bf5@a.consensus.sunrise-1.sunriselayer.io:26656"
-```
+This is a list of trusted validators that the validator should maintain connections with at all times.
+Connections to validators listed in persistent_peers are prioritized to maintain network stability.
 
 ### 6. Restart chain
 
 ```bash
 sudo systemctl start cosmovisor
+```
+
+### 7. Check logs
+
+```bash
+sudo journalctl -u cosmovisor -f -o cat
 ```
