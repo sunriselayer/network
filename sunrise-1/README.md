@@ -79,7 +79,7 @@ Update seeds information in `config.toml`.
 
 ```yml
 # edit  ~/.sunrise/config/config.toml
-seeds = ""
+seeds = "2a30964e07118a0cb03bb1cae9185d37a967230a@a.validator.sunrise-1.sunriselayer.io:26656"
 ```
 
 ### 5. Set persistent peers
@@ -88,7 +88,7 @@ Update persistent peers information in `config.toml`.
 
 ```yml
 # edit  ~/.sunrise/config/config.toml
-persistent_peers = ""
+persistent_peers = "2a30964e07118a0cb03bb1cae9185d37a967230a@a.validator.sunrise-1.sunriselayer.io:26656"
 ```
 
 ### 6. Restart chain
