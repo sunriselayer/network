@@ -41,6 +41,9 @@ rm ~/.sunrise/config/genesis.json
 ```bash
 # download genesis.json
 wget -O ~/.sunrise/config/genesis.json https://raw.githubusercontent.com/sunriselayer/network/main/sunrise-1/genesis.json
+# check md5sum
+md5sum ~/.sunrise/config/genesis.json
+# result: 83023c0bce23b4a28eb21f66753f5f3a genesis.json
 ```
 
 ### 3. Create binary
