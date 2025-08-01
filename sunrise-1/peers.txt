@@ -1,1 +1,1 @@
-41e61c0441f0086caf17186950fc440d45870bf5@a.consensus.sunrise-1.sunriselayer.io:26656
+41e61c0441f0086caf17186950fc440d45870bf5@a.consensus.sunrise-1.sunriselayer.io:26656,7e8cf0f634173b2db50bae901f4de8d6af0bac3b@b.consensus.sunrise-1.sunriselayer.io:26656
