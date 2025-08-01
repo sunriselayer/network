@@ -88,7 +88,7 @@ Update persistent peers information in `config.toml`.
 
 ```yml
 # edit  ~/.sunrise/config/config.toml
-persistent_peers = "2a30964e07118a0cb03bb1cae9185d37a967230a@a.validator.sunrise-1.sunriselayer.io:26656"
+persistent_peers = "41e61c0441f0086caf17186950fc440d45870bf5@a.consensus.sunrise-1.sunriselayer.io:26656"
 ```
 
 ### 6. Restart chain
