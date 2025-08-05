@@ -44,6 +44,10 @@ md5sum ~/.sunrise/config/genesis.json
 # result: 83023c0bce23b4a28eb21f66753f5f3a genesis.json
 ```
 
+> [!WARNING]
+> If you have run a previous version of `sunrised`, please ensure that `minimum-gas-prices` in `~/.sunrise/config/app.toml` is set to `"0.002uusdrise"`.
+> If this value is different, please update it by referring to the `app.toml` file within this repository.
+
 ### 3. Create binary
 
 `sunrise-1` uses the `sunrised v1.0.0` binary at the genesis.
